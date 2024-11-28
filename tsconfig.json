@@ -1,0 +1,24 @@
+// https://github.com/ericchase-library/ts-templates-website/blob/main/tsconfig.json
+{
+  "compilerOptions": {
+    // Enable latest features
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "target": "ESNext",
+
+    // Bundler mode
+    "moduleResolution": "Bundler",
+    "verbatimModuleSyntax": true,
+
+    // Best practices
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "exclude": [
+    "node_modules", //
+    "**/node_modules/*",
+    "public/",
+    "dev_server/"
+  ]
+}
